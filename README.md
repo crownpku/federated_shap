@@ -1,16 +1,17 @@
 # federated_shap
 
-### Calculate SHAP values for Federated Features.
+### Calculate SHAP values for Federated Features
 
 Inspired by SHAP: https://github.com/slundberg/shap
 
 ### 中文blog (coming soon)
 
-###arxiv paper (coming soon)
+### arxiv paper (coming soon)
 
 
 ### Input of federated_shap:
 
+```
 f: model function, inputs a instance and outputs a prediction value.
 
 x: numpy array, target instance with features to be interpreted.
@@ -20,7 +21,7 @@ reference: numpy array, to determine the impact of a feature, that feature is se
 M: integer, number of features
 
 fed_pos: integer, feature position in x starting from which the features are hidden and united
-    
+``` 
 
 ### Usage of federated_shap:
 
@@ -34,5 +35,8 @@ shap_values_federated = fs.kernel_shap_federated(f_knn, x, med, M, fed_pos)[:-1]
 ```
 
 ### Results
+
+Plot for Feature Importance (Shapley values) for 1000 random predictions. Top figure is for the
+whole feature space, middle figure is for federated feature of last 3 features, and bottom figure is for federated feature of last 5 features.
 
 ![](/img/result.png)
