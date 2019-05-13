@@ -4,9 +4,6 @@
 
 Inspired by SHAP: https://github.com/slundberg/shap
 
-### 中文blog (coming soon)
-
-### arxiv paper (coming soon)
 
 
 ### Input of federated_shap:
