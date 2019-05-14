@@ -1,5 +1,8 @@
 # federated_shap
 
+Code for paper ["Interpret Federated Learning with Shapley Values"](https://arxiv.org/abs/1905.04519)
+
+
 ### Calculate SHAP values for Federated Features
 
 Inspired by SHAP: https://github.com/slundberg/shap
