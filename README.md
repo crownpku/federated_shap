@@ -2,6 +2,8 @@
 
 Code for paper ["Interpret Federated Learning with Shapley Values"](https://arxiv.org/abs/1905.04519)
 
+[中文blog](http://www.crownpku.com/2019/05/18/%E7%94%A8Shapley%E5%80%BC%E8%A7%A3%E9%87%8A%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B.html)
+
 
 ### Calculate SHAP values for Federated Features
 
